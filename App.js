@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
         message: "Connected successfully to server",       
       });
     });
-    res.sendStatus(403);
+   // res.sendStatus(403);
     });
 app.use("/todo", todoRoute);
 
